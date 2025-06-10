@@ -10,5 +10,5 @@ This file contains details about the team members and a link to the recorded vid
 
 ## Recorded Video
 The recorded video can be accessed via the following Google Drive link:
-part1: being compressed...   
+part1: being compressed...<br>  
 part2:https://us05web.zoom.us/clips/share/BHVzMDQWQXZmcWRybjBRcGVDVnFmLWtPSFRHUQE
