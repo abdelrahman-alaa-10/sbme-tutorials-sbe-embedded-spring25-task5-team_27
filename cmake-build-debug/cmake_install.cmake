@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5
+# Install script for directory: C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Task__4")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Task_5")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

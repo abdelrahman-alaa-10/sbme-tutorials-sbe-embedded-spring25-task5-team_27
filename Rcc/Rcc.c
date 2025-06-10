@@ -10,7 +10,12 @@
 #include "Rcc_Private.h"
 #include "Std_Types.h"
 
-void Rcc_Init(void) { SET_BIT(RCC_CR, 0); }
+void Rcc_Init(void)
+{
+    SET_BIT(RCC_CR, 0);
+    while (!(RCC_CR & (1 << 1)));
+    RCC_CFGR &= ~(0x3 << 0); // Clear SW bits
+}
 
 void Rcc_Enable(Rcc_PeripheralIdType PeripheralId) {
     uint8 busId = PeripheralId / 32;

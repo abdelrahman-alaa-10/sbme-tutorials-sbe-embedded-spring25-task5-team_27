@@ -129,51 +129,51 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base/startup"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base/startup"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base-STM32Cube/CMSIS/ARM/inc"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base-STM32Cube/CMSIS/ARM/inc"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base-STM32Cube/CMSIS/STM32F4xx/inc"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base-STM32Cube/CMSIS/STM32F4xx/inc"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/include"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Lib"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Lib"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Rcc"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Rcc"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Gpio"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Gpio"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Keypad"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Keypad"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Delay"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Delay"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/7-segment"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/7-segment"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/draft"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/draft"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/EXTI"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/EXTI"
 				}
 			],
 			"language" : "C",
@@ -264,51 +264,51 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base/startup"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base/startup"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base-STM32Cube/CMSIS/ARM/inc"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base-STM32Cube/CMSIS/ARM/inc"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base-STM32Cube/CMSIS/STM32F4xx/inc"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base-STM32Cube/CMSIS/STM32F4xx/inc"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/include"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Lib"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Lib"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Rcc"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Rcc"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Gpio"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Gpio"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Keypad"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Keypad"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/Delay"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/Delay"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/7-segment"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/7-segment"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/draft"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/draft"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/EXTI"
+					"path" : "C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/EXTI"
 				}
 			],
 			"language" : "ASM",
@@ -373,12 +373,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base/linker/",
+				"fragment" : "-LC:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base/linker/",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-TC:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5/STM32-base/linker//STM32F4xx/STM32F401xE.ld",
+				"fragment" : "-TC:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/STM32-base/linker//STM32F4xx/STM32F401xE.ld",
 				"role" : "flags"
 			},
 			{
