@@ -1,3 +1,14 @@
-# STM32F4 template
-This is a cmake project template for using the STM32-base project with a STM32F4 series device based on
-[STM32-base project](https://github.com/STM32-base/STM32-base).
+# Project Team_27 Information
+
+This file contains details about the team members and a link to the recorded video.
+
+## Team Members
+| Name              | Bench Number |
+|-------------------|--------------|
+| Abdelrahman Alaa  | 9220434      |
+| Karerm Ibrahim    | 9231398      |
+
+## Recorded Video
+The recorded video can be accessed via the following Google Drive link:
+part1: being compressed...   
+part2:https://us05web.zoom.us/clips/share/BHVzMDQWQXZmcWRybjBRcGVDVnFmLWtPSFRHUQE
