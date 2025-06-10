@@ -203,7 +203,7 @@ void Initialize(void) {
 
     // Initialize button pins with pull-up resistors
     Gpio_Init(GPIO_B, 12, GPIO_INPUT, GPIO_PULL_UP);   // Increment button
-    Gpio_Init(GPIO_B, 13, GPIO_INPUT, GPIO_PULL_UP);   // Decrement button
+    Gpio_Init(GPIO_B, 13, GPIO_INPUT, GPIO_PULL_DOWN);   // Decrement button
     Gpio_Init(GPIO_A, 4, GPIO_INPUT, GPIO_PULL_UP);    // LED control button
 
     // Configure EXTI for buttons
@@ -231,19 +231,13 @@ void Initialize(void) {
 }
 
 void DisplayRefresh(void) {
-    static uint32 delayCounter = 0;
     uint32 i;
-    delayCounter++;
-    if (delayCounter >= 4) {
-        delayCounter = 0;
-        DisableAllDisplays();
-        uint8 digitValue = GetDigitValue(g_currentDigit);
-        SevenSegDisplay(digitValue);
-        for (i = 0; i < 100; i++) {} // Anti-ghosting delay
-        EnableDisplay(g_currentDigit);
-        for (i = 0; i < 1000; i++) {} // Reduced delay for testing
-        g_currentDigit = (g_currentDigit + 1) % 4;
-    }
+    DisableAllDisplays();
+    uint8 digitValue = GetDigitValue(g_currentDigit);
+    SevenSegDisplay(digitValue);
+    EnableDisplay(g_currentDigit);
+    for (i = 0; i < 3000; i++) {} // ~1-2 ms delay, adjust as needed
+    g_currentDigit = (g_currentDigit + 1) % 4;
 }
 
 void UpdateCounter(void) {

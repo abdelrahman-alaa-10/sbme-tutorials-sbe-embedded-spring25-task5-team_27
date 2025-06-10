@@ -93,8 +93,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x28 CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
  .debug_ranges  0x00000000       0x18 CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
- .debug_line    0x00000000      0x2db CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
- .debug_str     0x00000000      0x403 CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
+ .debug_line    0x00000000      0x2ea CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
+ .debug_str     0x00000000      0x40d CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
  .debug_frame   0x00000000       0x58 CMakeFiles/Task_5.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_stm32f4xx.c.obj
  .ARM.attributes
@@ -360,7 +360,7 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
  .isr_vector    0x08000000      0x194 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
                 0x08000194                        . = ALIGN (0x4)
 
-.text           0x08000194     0x1078
+.text           0x08000194     0x106c
                 0x08000194                        . = ALIGN (0x4)
                 0x08000194                        __text_start = .
  *(.text)
@@ -391,184 +391,184 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x08000aac       0xb0 CMakeFiles/Task_5.dir/GPIO/GPIO.c.obj
                 0x08000aac                Gpio_ReadPin
  .text.Rcc_Init
-                0x08000b5c       0x1c CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
+                0x08000b5c       0x3c CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
                 0x08000b5c                Rcc_Init
  .text.Rcc_Enable
-                0x08000b78       0xa0 CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
-                0x08000b78                Rcc_Enable
+                0x08000b98       0xa0 CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
+                0x08000b98                Rcc_Enable
  .text.__NVIC_EnableIRQ
-                0x08000c18       0x38 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000c38       0x38 CMakeFiles/Task_5.dir/src/main.c.obj
  .text.EXTI15_10_IRQHandler
-                0x08000c50       0xcc CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000c50                EXTI15_10_IRQHandler
+                0x08000c70       0xcc CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000c70                EXTI15_10_IRQHandler
  .text.EXTI4_IRQHandler
-                0x08000d1c       0x74 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000d1c                EXTI4_IRQHandler
- .text.main     0x08000d90       0x50 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000d90                main
+                0x08000d3c       0x74 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000d3c                EXTI4_IRQHandler
+ .text.main     0x08000db0       0x50 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000db0                main
  .text.Initialize
-                0x08000de0      0x104 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000de0                Initialize
+                0x08000e00      0x104 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000e00                Initialize
  .text.DisplayRefresh
-                0x08000ee4       0x94 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000ee4                DisplayRefresh
+                0x08000f04       0x68 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000f04                DisplayRefresh
  .text.UpdateCounter
-                0x08000f78        0xc CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000f78                UpdateCounter
+                0x08000f6c        0xc CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000f6c                UpdateCounter
  .text.UpdateLastSource
-                0x08000f84        0xc CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000f84                UpdateLastSource
+                0x08000f78        0xc CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000f78                UpdateLastSource
  .text.DisableAllDisplays
-                0x08000f90       0x30 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000f90                DisableAllDisplays
+                0x08000f84       0x30 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000f84                DisableAllDisplays
  .text.EnableDisplay
-                0x08000fc0       0x60 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08000fc0                EnableDisplay
+                0x08000fb4       0x60 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08000fb4                EnableDisplay
  .text.GetDigitValue
-                0x08001020       0xd0 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x08001020                GetDigitValue
+                0x08001014       0xd0 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x08001014                GetDigitValue
  .text.SevenSegDisplay
-                0x080010f0       0x74 CMakeFiles/Task_5.dir/src/main.c.obj
-                0x080010f0                SevenSegDisplay
+                0x080010e4       0x74 CMakeFiles/Task_5.dir/src/main.c.obj
+                0x080010e4                SevenSegDisplay
  .text.Reset_Handler
-                0x08001164       0x44 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
-                0x08001164                Reset_Handler
+                0x08001158       0x44 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+                0x08001158                Reset_Handler
  .text.Default_Handler
-                0x080011a8        0x2 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
-                0x080011a8                RTC_Alarm_IRQHandler
-                0x080011a8                EXTI2_IRQHandler
-                0x080011a8                DebugMon_Handler
-                0x080011a8                SPI4_IRQHandler
-                0x080011a8                TIM1_CC_IRQHandler
-                0x080011a8                DMA2_Stream5_IRQHandler
-                0x080011a8                HardFault_Handler
-                0x080011a8                DMA1_Stream5_IRQHandler
-                0x080011a8                SysTick_Handler
-                0x080011a8                PVD_IRQHandler
-                0x080011a8                SDIO_IRQHandler
-                0x080011a8                TAMP_STAMP_IRQHandler
-                0x080011a8                PendSV_Handler
-                0x080011a8                NMI_Handler
-                0x080011a8                EXTI3_IRQHandler
-                0x080011a8                TIM1_UP_TIM10_IRQHandler
-                0x080011a8                I2C3_ER_IRQHandler
-                0x080011a8                EXTI0_IRQHandler
-                0x080011a8                I2C2_EV_IRQHandler
-                0x080011a8                DMA1_Stream2_IRQHandler
-                0x080011a8                FPU_IRQHandler
-                0x080011a8                UsageFault_Handler
-                0x080011a8                DMA2_Stream2_IRQHandler
-                0x080011a8                SPI1_IRQHandler
-                0x080011a8                TIM1_BRK_TIM9_IRQHandler
-                0x080011a8                DMA2_Stream3_IRQHandler
-                0x080011a8                USART6_IRQHandler
-                0x080011a8                DMA2_Stream0_IRQHandler
-                0x080011a8                TIM4_IRQHandler
-                0x080011a8                I2C1_EV_IRQHandler
-                0x080011a8                DMA1_Stream6_IRQHandler
-                0x080011a8                DMA1_Stream1_IRQHandler
-                0x080011a8                TIM3_IRQHandler
-                0x080011a8                RCC_IRQHandler
-                0x080011a8                Default_Handler
-                0x080011a8                ADC_IRQHandler
-                0x080011a8                DMA1_Stream7_IRQHandler
-                0x080011a8                TIM5_IRQHandler
-                0x080011a8                DMA2_Stream7_IRQHandler
-                0x080011a8                I2C3_EV_IRQHandler
-                0x080011a8                EXTI9_5_IRQHandler
-                0x080011a8                RTC_WKUP_IRQHandler
-                0x080011a8                SPI2_IRQHandler
-                0x080011a8                MemManage_Handler
-                0x080011a8                DMA1_Stream0_IRQHandler
-                0x080011a8                SVC_Handler
-                0x080011a8                WWDG_IRQHandler
-                0x080011a8                TIM2_IRQHandler
-                0x080011a8                OTG_FS_WKUP_IRQHandler
-                0x080011a8                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080011a8                EXTI1_IRQHandler
-                0x080011a8                USART2_IRQHandler
-                0x080011a8                I2C2_ER_IRQHandler
-                0x080011a8                DMA2_Stream1_IRQHandler
-                0x080011a8                FLASH_IRQHandler
-                0x080011a8                DMA2_Stream4_IRQHandler
-                0x080011a8                BusFault_Handler
-                0x080011a8                USART1_IRQHandler
-                0x080011a8                OTG_FS_IRQHandler
-                0x080011a8                SPI3_IRQHandler
-                0x080011a8                DMA1_Stream4_IRQHandler
-                0x080011a8                I2C1_ER_IRQHandler
-                0x080011a8                DMA2_Stream6_IRQHandler
-                0x080011a8                DMA1_Stream3_IRQHandler
- *fill*         0x080011aa        0x2 
+                0x0800119c        0x2 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+                0x0800119c                RTC_Alarm_IRQHandler
+                0x0800119c                EXTI2_IRQHandler
+                0x0800119c                DebugMon_Handler
+                0x0800119c                SPI4_IRQHandler
+                0x0800119c                TIM1_CC_IRQHandler
+                0x0800119c                DMA2_Stream5_IRQHandler
+                0x0800119c                HardFault_Handler
+                0x0800119c                DMA1_Stream5_IRQHandler
+                0x0800119c                SysTick_Handler
+                0x0800119c                PVD_IRQHandler
+                0x0800119c                SDIO_IRQHandler
+                0x0800119c                TAMP_STAMP_IRQHandler
+                0x0800119c                PendSV_Handler
+                0x0800119c                NMI_Handler
+                0x0800119c                EXTI3_IRQHandler
+                0x0800119c                TIM1_UP_TIM10_IRQHandler
+                0x0800119c                I2C3_ER_IRQHandler
+                0x0800119c                EXTI0_IRQHandler
+                0x0800119c                I2C2_EV_IRQHandler
+                0x0800119c                DMA1_Stream2_IRQHandler
+                0x0800119c                FPU_IRQHandler
+                0x0800119c                UsageFault_Handler
+                0x0800119c                DMA2_Stream2_IRQHandler
+                0x0800119c                SPI1_IRQHandler
+                0x0800119c                TIM1_BRK_TIM9_IRQHandler
+                0x0800119c                DMA2_Stream3_IRQHandler
+                0x0800119c                USART6_IRQHandler
+                0x0800119c                DMA2_Stream0_IRQHandler
+                0x0800119c                TIM4_IRQHandler
+                0x0800119c                I2C1_EV_IRQHandler
+                0x0800119c                DMA1_Stream6_IRQHandler
+                0x0800119c                DMA1_Stream1_IRQHandler
+                0x0800119c                TIM3_IRQHandler
+                0x0800119c                RCC_IRQHandler
+                0x0800119c                Default_Handler
+                0x0800119c                ADC_IRQHandler
+                0x0800119c                DMA1_Stream7_IRQHandler
+                0x0800119c                TIM5_IRQHandler
+                0x0800119c                DMA2_Stream7_IRQHandler
+                0x0800119c                I2C3_EV_IRQHandler
+                0x0800119c                EXTI9_5_IRQHandler
+                0x0800119c                RTC_WKUP_IRQHandler
+                0x0800119c                SPI2_IRQHandler
+                0x0800119c                MemManage_Handler
+                0x0800119c                DMA1_Stream0_IRQHandler
+                0x0800119c                SVC_Handler
+                0x0800119c                WWDG_IRQHandler
+                0x0800119c                TIM2_IRQHandler
+                0x0800119c                OTG_FS_WKUP_IRQHandler
+                0x0800119c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0800119c                EXTI1_IRQHandler
+                0x0800119c                USART2_IRQHandler
+                0x0800119c                I2C2_ER_IRQHandler
+                0x0800119c                DMA2_Stream1_IRQHandler
+                0x0800119c                FLASH_IRQHandler
+                0x0800119c                DMA2_Stream4_IRQHandler
+                0x0800119c                BusFault_Handler
+                0x0800119c                USART1_IRQHandler
+                0x0800119c                OTG_FS_IRQHandler
+                0x0800119c                SPI3_IRQHandler
+                0x0800119c                DMA1_Stream4_IRQHandler
+                0x0800119c                I2C1_ER_IRQHandler
+                0x0800119c                DMA2_Stream6_IRQHandler
+                0x0800119c                DMA1_Stream3_IRQHandler
+ *fill*         0x0800119e        0x2 
  .text.__libc_init_array
-                0x080011ac       0x48 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
-                0x080011ac                __libc_init_array
+                0x080011a0       0x48 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg_nano.a(libc_a-init.o)
+                0x080011a0                __libc_init_array
  *(.glue_7)
- .glue_7        0x080011f4        0x0 linker stubs
+ .glue_7        0x080011e8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080011f4        0x0 linker stubs
+ .glue_7t       0x080011e8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080011f4        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x080011e8        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x080011f4        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
-                0x080011f4                _init
- .init          0x080011f8        0x8 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x080011e8        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+                0x080011e8                _init
+ .init          0x080011ec        0x8 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08001200        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
-                0x08001200                _fini
- .fini          0x08001204        0x8 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
-                0x0800120c                        . = ALIGN (0x4)
-                0x0800120c                        __text_end = .
+ .fini          0x080011f4        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crti.o
+                0x080011f4                _fini
+ .fini          0x080011f8        0x8 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtn.o
+                0x08001200                        . = ALIGN (0x4)
+                0x08001200                        __text_end = .
 
-.vfp11_veneer   0x0800120c        0x0
- .vfp11_veneer  0x0800120c        0x0 linker stubs
+.vfp11_veneer   0x08001200        0x0
+ .vfp11_veneer  0x08001200        0x0 linker stubs
 
-.v4_bx          0x0800120c        0x0
- .v4_bx         0x0800120c        0x0 linker stubs
+.v4_bx          0x08001200        0x0
+ .v4_bx         0x08001200        0x0 linker stubs
 
-.iplt           0x0800120c        0x0
- .iplt          0x0800120c        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08001200        0x0
+ .iplt          0x08001200        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x0800120c        0xc
-                0x0800120c                        . = ALIGN (0x4)
-                0x0800120c                        __rodata_start = .
+.rodata         0x08001200        0xc
+                0x08001200                        . = ALIGN (0x4)
+                0x08001200                        __rodata_start = .
  *(.rodata)
- .rodata        0x0800120c        0xa CMakeFiles/Task_5.dir/src/main.c.obj
+ .rodata        0x08001200        0xa CMakeFiles/Task_5.dir/src/main.c.obj
  *(.rodata*)
-                0x08001218                        . = ALIGN (0x4)
- *fill*         0x08001216        0x2 
-                0x08001218                        __rodata_end = .
+                0x0800120c                        . = ALIGN (0x4)
+ *fill*         0x0800120a        0x2 
+                0x0800120c                        __rodata_end = .
 
-.rel.dyn        0x08001218        0x0
- .rel.iplt      0x08001218        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0800120c        0x0
+ .rel.iplt      0x0800120c        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08001218        0x0
-                0x08001218                        __exidx_start = .
+.ARM            0x0800120c        0x0
+                0x0800120c                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08001218                        __exidx_end = .
+                0x0800120c                        __exidx_end = .
 
-.preinit_array  0x08001218        0x0
-                0x08001218                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800120c        0x0
+                0x0800120c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08001218                        PROVIDE (__preinit_array_end = .)
+                0x0800120c                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08001218        0x4
-                0x08001218                        PROVIDE (__init_array_start = .)
+.init_array     0x0800120c        0x4
+                0x0800120c                        PROVIDE (__init_array_start = .)
  *(.init_array*)
- .init_array    0x08001218        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800121c                        PROVIDE (__init_array_end = .)
+ .init_array    0x0800120c        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08001210                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x0800121c        0x4
+.fini_array     0x08001210        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(.fini_array*)
- .fini_array    0x0800121c        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .fini_array    0x08001210        0x4 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08001220                        __data_flash_start = LOADADDR (.data)
+                0x08001214                        __data_flash_start = LOADADDR (.data)
 
-.data           0x20000000       0x10 load address 0x08001220
+.data           0x20000000       0x10 load address 0x08001214
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        __data_start = .
  *(.data)
@@ -581,16 +581,16 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x20000010                        __data_end = .
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x08001230
+                0x20000010        0x0 load address 0x08001224
  .tm_clone_table
                 0x20000010        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x08001230
+.igot.plt       0x20000010        0x0 load address 0x08001224
  .igot.plt      0x20000010        0x0 C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.bss            0x20000010       0x28 load address 0x08001230
+.bss            0x20000010       0x24 load address 0x08001224
                 0x20000010                        . = ALIGN (0x4)
                 0x20000010                        __bss_start = .
                 0x20000010                        __bss_start__ = __bss_start
@@ -615,16 +615,14 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
  .bss.g_currentDigit
                 0x20000031        0x1 CMakeFiles/Task_5.dir/src/main.c.obj
                 0x20000031                g_currentDigit
- *fill*         0x20000032        0x2 
- .bss.delayCounter.0
-                0x20000034        0x4 CMakeFiles/Task_5.dir/src/main.c.obj
  *(COMMON)
-                0x20000038                        . = ALIGN (0x4)
-                0x20000038                        __bss_end = .
-                0x20000038                        __bss_end__ = __bss_end
-                0x08001230                        __cmmdata_flash_start = LOADADDR (.ccmram)
+                0x20000034                        . = ALIGN (0x4)
+ *fill*         0x20000032        0x2 
+                0x20000034                        __bss_end = .
+                0x20000034                        __bss_end__ = __bss_end
+                0x08001224                        __cmmdata_flash_start = LOADADDR (.ccmram)
 
-.ccmram         0x10000000        0x0 load address 0x08001230
+.ccmram         0x10000000        0x0 load address 0x08001224
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        __ccmdata_start = .
  *(.ccmram)
@@ -633,15 +631,15 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
                 0x10000000                        __ccmdata_end = .
 
 ._user_heap_stack
-                0x20000038      0x600
-                0x20000038                        . = ALIGN (0x4)
+                0x20000034      0x600
+                0x20000034                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x20000238                        . = (. + 0x200)
- *fill*         0x20000038      0x200 
-                0x20000638                        . = (. + 0x400)
- *fill*         0x20000238      0x400 
-                0x20000638                        . = ALIGN (0x4)
+                0x20000234                        . = (. + 0x200)
+ *fill*         0x20000034      0x200 
+                0x20000634                        . = (. + 0x400)
+ *fill*         0x20000234      0x400 
+                0x20000634                        . = ALIGN (0x4)
 
 /DISCARD/
  libc.a(*)
@@ -677,12 +675,12 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
 LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a
 LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x1158
+.debug_info     0x00000000     0x113b
  .debug_info    0x00000000      0x5a4 CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
  .debug_info    0x000005a4      0x185 CMakeFiles/Task_5.dir/GPIO/GPIO.c.obj
  .debug_info    0x00000729      0x13d CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
- .debug_info    0x00000866      0x8c2 CMakeFiles/Task_5.dir/src/main.c.obj
- .debug_info    0x00001128       0x30 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .debug_info    0x00000866      0x8a5 CMakeFiles/Task_5.dir/src/main.c.obj
+ .debug_info    0x0000110b       0x30 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
 .debug_abbrev   0x00000000      0x554
  .debug_abbrev  0x00000000      0x174 CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
@@ -716,20 +714,20 @@ LOAD C:/PROGRA~1/ARM-GN~1/ARM-GN~1.REL/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb
  .debug_ranges  0x00000068       0x68 CMakeFiles/Task_5.dir/src/main.c.obj
  .debug_ranges  0x000000d0       0x20 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
-.debug_line     0x00000000     0x11d1
- .debug_line    0x00000000      0x32d CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
- .debug_line    0x0000032d      0x61f CMakeFiles/Task_5.dir/GPIO/GPIO.c.obj
- .debug_line    0x0000094c      0x13b CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
- .debug_line    0x00000a87      0x682 CMakeFiles/Task_5.dir/src/main.c.obj
- .debug_line    0x00001109       0xc8 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+.debug_line     0x00000000     0x121d
+ .debug_line    0x00000000      0x341 CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
+ .debug_line    0x00000341      0x629 CMakeFiles/Task_5.dir/GPIO/GPIO.c.obj
+ .debug_line    0x0000096a      0x163 CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
+ .debug_line    0x00000acd      0x683 CMakeFiles/Task_5.dir/src/main.c.obj
+ .debug_line    0x00001150       0xcd CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
-.debug_str      0x00000000      0xa62
- .debug_str     0x00000000      0xa62 CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
-                                0x6e7 (size before relaxing)
- .debug_str     0x00000a62      0x266 CMakeFiles/Task_5.dir/GPIO/GPIO.c.obj
- .debug_str     0x00000a62      0x252 CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
- .debug_str     0x00000a62      0x84c CMakeFiles/Task_5.dir/src/main.c.obj
- .debug_str     0x00000a62       0xe4 CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+.debug_str      0x00000000      0xa73
+ .debug_str     0x00000000      0xa73 CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
+                                0x6f1 (size before relaxing)
+ .debug_str     0x00000a73      0x270 CMakeFiles/Task_5.dir/GPIO/GPIO.c.obj
+ .debug_str     0x00000a73      0x25c CMakeFiles/Task_5.dir/Rcc/Rcc.c.obj
+ .debug_str     0x00000a73      0x849 CMakeFiles/Task_5.dir/src/main.c.obj
+ .debug_str     0x00000a73       0xee CMakeFiles/Task_5.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/Task_5.dir/EXTI/EXTI.c.obj
