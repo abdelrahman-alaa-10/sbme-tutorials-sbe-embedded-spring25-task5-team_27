@@ -26,7 +26,8 @@ void Exti_Init(uint8 Portname, uint8 pinNumber, uint8 edge) {
 
 void Exti_Enable(uint8 pinNumber) {
     EXTI->IMR |= (1 << pinNumber);
-    if (pinNumber >= 10 && pinNumber <= 15) {
+    if (pinNumber >= 10 && pinNumber <= 15)
+        {
         NVIC_EnableIRQ(EXTI15_10_IRQn); // For pins 10-15
     } else if (pinNumber == 4) {
         NVIC_EnableIRQ(EXTI4_IRQn); // For pin 4
