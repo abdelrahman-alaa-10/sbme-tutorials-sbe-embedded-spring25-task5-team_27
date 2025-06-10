@@ -240,16 +240,6 @@ void DisplayRefresh(void) {
     g_currentDigit = (g_currentDigit + 1) % 4;
 }
 
-void UpdateCounter(void) {
-    // Counter update is handled in DisplayRefresh through GetDigitValue
-    // This function can be used for additional counter-related operations
-}
-
-void UpdateLastSource(void) {
-    // Source update is handled in DisplayRefresh through GetDigitValue
-    // This function can be used for additional source-related operations
-}
-
 void DisableAllDisplays(void) {
     Gpio_WritePin(GPIO_B, 7, HIGH);   // Hundreds
     Gpio_WritePin(GPIO_B, 8, HIGH);   // Tens
