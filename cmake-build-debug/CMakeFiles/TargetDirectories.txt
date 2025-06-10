@@ -1,3 +1,0 @@
-C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/cmake-build-debug/CMakeFiles/Task_5.dir
-C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/moham/OneDrive/Desktop/Boda/Projects/SBE_3/Embedded/tasks/task5_repo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
